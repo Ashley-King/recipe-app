@@ -4,8 +4,9 @@ import logo from "../images/logo.svg";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-light">
-      <Link to="/" className="navbar-brand" />
-      <img src={logo} alt="logo" />
+      <Link to="/" className="navbar-brand">
+        <img src={logo} alt="logo" />
+      </Link>
       <div className="collapse navbar-collapse show ml-sm-5">
         <ul className="navbar-nav">
           <li className="navbar-item">
