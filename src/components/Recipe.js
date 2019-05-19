@@ -15,8 +15,8 @@ export default class Recipe extends Component {
         <div className="card" style={{ height: "100%" }}>
           <img
             src={image_url}
-            style={{ height: "14rem" }}
-            className=" img-card-top"
+            // style={{ height: "14rem", width: "auto" }}
+            className=" card-img-top"
             alt="recipe"
           />
           {/* card body */}
@@ -28,18 +28,23 @@ export default class Recipe extends Component {
           </div>
           {/* card footer */}
           <div className="card-footer">
-            <Link to={`recipes/${recipe_id}`} className='btn btn-primary text-capitalize'>details</Link>
-            <a 
-            href={source_url} 
-            target="_blank" 
-            rel='noopener noreferrer' 
-            className='btn btn-success mx-2 text-capitalize'
-            > 
-            recipe url
+            <Link
+              to={`recipes/${recipe_id}`}
+              className="btn btn-primary text-capitalize"
+            >
+              details
+            </Link>
+            <a
+              href={source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-success mx-2 text-capitalize"
+            >
+              recipe url
             </a>
-          </div> 
-         </div>
-         {/* end card */}
+          </div>
+        </div>
+        {/* end card */}
       </div>
     );
   }
