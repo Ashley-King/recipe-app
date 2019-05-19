@@ -1,3 +1,5 @@
+# Hey y'all! check out the app [right here](https://recipe-app-b70a98.netlify.com)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
